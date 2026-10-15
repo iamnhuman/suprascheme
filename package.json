@@ -1,0 +1,12 @@
+{
+  "name": "toyota-signal-overload",
+  "version": "2.0.0",
+  "private": true,
+  "description": "A full-viewport, adaptive 48-second Toyota motion film with 24 scenes of animated infographics.",
+  "scripts": {
+    "dev": "node build-film.mjs && node server.mjs",
+    "start": "node build-film.mjs && node server.mjs",
+    "check": "node --check renderer.js && node --check app.js && node --check server.mjs && node --check build-film.mjs",
+    "build": "node build-film.mjs"
+  }
+}
